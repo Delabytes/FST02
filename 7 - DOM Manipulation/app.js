@@ -67,6 +67,8 @@ darkModeBtn.addEventListener("click", function(){
     let pageModeText = document.getElementById("page-mode-text");
     // pageModeText.textContent = "Dark Mode";
     
+
+    // Make it toggle
     if(pageModeText.textContent == "Light Mode"){
         pageModeText.textContent = "Dark Mode";
         pageContainer.style.backgroundColor = "black";
